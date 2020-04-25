@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tiny-admin/admin.iml" filepath="$PROJECT_DIR$/tiny-admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-auth/auth.iml" filepath="$PROJECT_DIR$/tiny-auth/auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-common/common.iml" filepath="$PROJECT_DIR$/tiny-common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-gateway/gateway.iml" filepath="$PROJECT_DIR$/tiny-gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-models/models.iml" filepath="$PROJECT_DIR$/tiny-models/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny.iml" filepath="$PROJECT_DIR$/tiny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiny-user-center/user-center.iml" filepath="$PROJECT_DIR$/tiny-user-center/user-center.iml" />
+    </modules>
+  </component>
+</project>
