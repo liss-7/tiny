@@ -1,7 +1,5 @@
 package com.tiny.models.base;
 
-import lombok.Data;
-
 import java.io.Serializable;
 
 public class BaseBean implements Serializable {
