@@ -78,7 +78,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--自定义依赖 -->
+            <!--custom dependencies -->
             <dependency>
                 <groupId>com.liss.tiny</groupId>
                 <artifactId>models</artifactId>
@@ -89,7 +89,7 @@
                 <artifactId>common</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
-            <!--自定义依赖 -->
+            <!--custom dependencies -->
         </dependencies>
     </dependencyManagement>
 

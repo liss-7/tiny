@@ -8,6 +8,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.stream.Stream;
 
+/**
+ * @author liss
+ * @param <T>
+ */
 @Data
 @AllArgsConstructor
 public class ReturnBean<T> {

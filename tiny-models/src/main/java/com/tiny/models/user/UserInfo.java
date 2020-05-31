@@ -7,6 +7,10 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
+/**
+ * 测试用户类
+ * @author liss
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

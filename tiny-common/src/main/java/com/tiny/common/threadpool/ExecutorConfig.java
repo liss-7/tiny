@@ -13,6 +13,9 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * @author liss
+ */
 @EnableConfigurationProperties(value = ThreadPoolConfig.class)
 public class ExecutorConfig {
 
