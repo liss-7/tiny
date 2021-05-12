@@ -1,2 +1,16 @@
 info:
   amd: USA
+
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/fosun?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#整合mybatis,设置别名，识别mapper文件
+mybatis:
+  type-aliases-package: com.tiny.usercenter.fosun.buriedpoint.dao
+  mapper-locations: classpath:mapper/*.xml
+

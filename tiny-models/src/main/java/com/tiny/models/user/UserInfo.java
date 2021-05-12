@@ -13,7 +13,9 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode
 @Accessors(chain = true)
 public class UserInfo extends BaseBean {
+
     private Long id;
-    private String account;
-    private String password;
+    private String phone;
+    private String name;
+    private Long occurAt;
 }

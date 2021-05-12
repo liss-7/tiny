@@ -28,12 +28,16 @@ public class ReturnBean<T> {
         this.responseTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     };
 
+    public static ReturnBean ok(){
+        return new ReturnBean(ResultEnum.SUCCESS.getCode(),ResultEnum.SUCCESS.getMsg());
+    }
+
     public static ReturnBean ok(ResultEnum resultEnum){
         return new ReturnBean(resultEnum.getCode(),resultEnum.getMsg());
     }
 
     public static ReturnBean ok(ResultEnum resultEnum, Object data){
-        return new ReturnBean(resultEnum.getCode(),resultEnum.getMsg(),data);
+        return new ReturnBean<>(resultEnum.getCode(),resultEnum.getMsg(),data);
     }
 
 
