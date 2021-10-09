@@ -1,2 +1,11 @@
 info:
   amd: USA
+
+server:
+  port: 8081
+
+spring:
+  http:
+    multipart:
+      maxFileSize: 1MB  #单个文件最大为20M
+      maxRequestSize: 1MB #单次请求文件总数大小为20M
