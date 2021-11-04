@@ -21,6 +21,7 @@
         <module>tiny-admin</module>
         <module>tiny-models</module>
         <module>tiny-user-center</module>
+        <module>tiny-register</module>
     </modules>
 
     <name>tiny</name>

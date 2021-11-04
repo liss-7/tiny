@@ -39,8 +39,12 @@ public class ReturnBean<T> {
         return new ReturnBean<>(resultEnum.getCode(),resultEnum.getMsg());
     }
 
-    public static ReturnBean<?> ok(ResultEnum resultEnum, Object data){
-        return new ReturnBean<>(resultEnum.getCode(),resultEnum.getMsg(),data);
+    public static <T> ReturnBean<T> ok(T data){
+        return new ReturnBean<T>(ResultEnum.SUCCESS.getCode(),ResultEnum.SUCCESS.getMsg(),data);
+    }
+
+    public static <T> ReturnBean<T> ok(ResultEnum resultEnum, T data){
+        return new ReturnBean<T>(resultEnum.getCode(),resultEnum.getMsg(),data);
     }
 
 }

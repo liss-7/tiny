@@ -1,8 +1,10 @@
 info:
-  amd: USA
+  amd: ${LANGUAGE:USA}
 
 server:
-  port: 8081
+  port: ${SERVICE_PORT:8081}
+  undertow:
+    max-http-post-size: 104857600
 
 spring:
   http:
